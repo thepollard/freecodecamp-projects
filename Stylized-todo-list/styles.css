@@ -1,0 +1,29 @@
+body {
+    background-color: skyblue;
+    font-family: sans-serif;
+}
+.sub-item {
+    padding: 5px;
+    list-style-position: inside;
+}
+.sub-item-link {
+    text-decoration: none;
+    color: #bb86fc;
+}
+.sub-item-link:visited {
+    color: #00c4b4
+}
+.sub-item-link:hover {
+    color: #ffb454
+}
+.sub-item-link:active {
+    color: #ff4081
+}
+.sub-item-link:clicked {
+    color: #fb2e65
+}
+.sub-item-link:focus {
+    outline: 2px dashed #21f3a2;
+    outline-offset: 3px;
+    border-radius: 4px;
+}
